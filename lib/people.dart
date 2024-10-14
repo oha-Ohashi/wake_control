@@ -99,7 +99,7 @@ class _PeopleState extends State<People> {
           
           automaticallyImplyLeading: false,
           title: Text(
-            'Page Title',
+            'みんなの状態',
           ),
           actions: [],
           centerTitle: false,
@@ -157,14 +157,6 @@ class _PeopleState extends State<People> {
                     lastLogin: '10/13_0539i',
                     lastPing: '10/13_0800i'
                   ),*/
-
-                  for(int i = 0; i < _contents.length; i++) ... {
-                    _contents[i]
-                  },
-
-                  for(int i = 0; i < _contents.length; i++) ... {
-                    _contents[i]
-                  },
 
                   for(int i = 0; i < _contents.length; i++) ... {
                     _contents[i]
