@@ -118,8 +118,6 @@ class _PeopleState extends State<People> {
                 shrinkWrap: true,
                 scrollDirection: Axis.vertical,
                 children: [
-
-
                   /*
                   const Person(
                     name: 'ota',
@@ -158,18 +156,20 @@ class _PeopleState extends State<People> {
                     lastPing: '10/13_0800i'
                   ),*/
 
+                  Text(_timeStamp),
+
                   for(int i = 0; i < _contents.length; i++) ... {
                     _contents[i]
                   },
 
                   Text(_timeStamp),
 
-                  ElevatedButton(
+                  /*ElevatedButton(
                     child: Text('2つ目'),
                     onPressed: () => {
                       
                     }
-                  ),
+                  ),*/
 
                   for(int i = 0; i < 0; i++) ... {
                     Container(
